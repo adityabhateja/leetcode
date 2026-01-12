@@ -4,4 +4,4 @@ from Weather w
 where temperature >
         (select temperature 
         from Weather 
-        where recordDate = w.recordDate - interval 1 day)
+        where recordDate = w.recordDate - interval 1 day);
